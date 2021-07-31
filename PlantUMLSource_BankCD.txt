@@ -1,0 +1,13 @@
+@startuml
+Class BankCD
+{
+
+-principal: double
+-rate: double
+-years: double
++BankCD(p: double, r: double, y: double)
++calcYearly(): double
++calcDaily(): double
+
+}
+@enduml
